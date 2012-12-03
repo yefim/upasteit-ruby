@@ -3,12 +3,12 @@
 ### Setup
 ``` ruby
 > require 'upasteit'
-> geoffs_paste = UPaste.new "geoff"
+> geoffs_pastes = UPaste.new "geoff"
 ```
 
 ### Paste
 ``` ruby
-> geoffs_paste.paste "how goes it?"
+> geoffs_pastes.paste "how goes it?"
 {
   "id": 1,
   "content": "how goes it?",
